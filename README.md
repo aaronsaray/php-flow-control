@@ -5,7 +5,11 @@ your own workflow process in PHP.
 
 ## Installation Instructions
 
-*coming soon*
+Install the latest version with
+
+```bash
+$ composer require aaronsaray/php-flow-control
+```
 
 ## Documentation
 
