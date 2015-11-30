@@ -174,3 +174,22 @@ I was creating a multi-step application again - a wizard based system - and I ke
 there was an easier way to do this.  It got even worse when the steps / order of the steps change.  I decided to create
 this scaffolding as a way to develop your own process or workflow control in PHP.
 
+### Requirements
+
+ - PHP 5.3+
+ 
+### Bugs and Feature Requests
+
+Bugs and feature request are tracked on [GitHub](https://github.com/aaronsaray/php-flow-control/issues)
+
+### Author
+
+Aaron Saray - <http://aaronsaray.com>
+
+### License
+
+This library is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+### Acknowledgements
+
+We're using this flow controller in our work at <https://www.smallshopsunited.com> - stop by and check it out.  
