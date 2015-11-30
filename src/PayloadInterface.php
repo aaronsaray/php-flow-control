@@ -18,5 +18,5 @@ interface PayloadInterface
      *
      * @return mixed
      */
-    public function getPayload();
+    public function get();
 }
