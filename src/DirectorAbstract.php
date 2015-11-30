@@ -28,6 +28,24 @@ abstract class DirectorAbstract
     }
 
     /**
+     * @return PointAbstract|null
+     */
+    public function getPoint()
+    {
+        return $this->point;
+    }
+
+    /**
+     * @param PointAbstract|null $point
+     * @return DirectorAbstract
+     */
+    public function setPoint($point)
+    {
+        $this->point = $point;
+        return $this;
+    }
+
+    /**
      * Get the last allowed point (usually good for restarting)
      *
      * @param ProcessableInterface $item
@@ -53,8 +71,8 @@ abstract class DirectorAbstract
      */
     public function getNextPoint(ProcessableInterface $item)
     {
-        $this->point = $this->point->next($item);
-        return $this->point;
+        $this->setPoint($this->point->next($item));
+        return $this->getPoint();
     }
 
     /**
