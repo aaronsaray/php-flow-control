@@ -78,7 +78,7 @@ class Question implements ProcessableInterface
   public $id;
   public $name;
   public $age;
-  $public $cake;
+  public $cake;
 }
 ```
 
